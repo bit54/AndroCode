@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Sign Up Here"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/logo"
+        android:textSize="50dp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            style="@style/text_box_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:hint="Enter your First Name"
+            android:inputType="text"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            style="@style/text_box_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter Lastname"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uname"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:textSize="20sp"
+            style="@style/text_box_style"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter date of birth"
+            android:textSize="20sp"
+            style="@style/text_box_style"
+            android:inputType="date"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            style="@style/text_box_style"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:textSize="20sp"
+            android:inputType="text"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            style="@style/text_box_style"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textSize="20sp"
+            android:inputType="text"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree terms and conditions"
+            android:textSize="15sp"
+
+            android:checked="true"/>
+        <Button
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            style="@style/text_box_style"
+            android:layout_gravity="center"
+            android:onClick="createAccount"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

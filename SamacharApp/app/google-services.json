@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "116537761322",
+    "firebase_url": "https://samacharapp-4c422.firebaseio.com",
+    "project_id": "samacharapp-4c422",
+    "storage_bucket": "samacharapp-4c422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116537761322:android:3a7d819369b87a26",
+        "android_client_info": {
+          "package_name": "com.example.samacharapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116537761322-jgqr0or6u1iflrbo38avcf8m1hg0t2ub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.samacharapp",
+            "certificate_hash": "321c2947062d826fe52c21ceac871c0df9710bd9"
+          }
+        },
+        {
+          "client_id": "116537761322-34etrjegcfkhv9u5h2t282h7odcbu51r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzkR8Y8n2Z_hwx52k_EqyaMCDHl18iX2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116537761322-34etrjegcfkhv9u5h2t282h7odcbu51r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

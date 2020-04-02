@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "578828547284",
+    "firebase_url": "https://fir-db-1c15a.firebaseio.com",
+    "project_id": "fir-db-1c15a",
+    "storage_bucket": "fir-db-1c15a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578828547284:android:b92ed9f524bc5c6e",
+        "android_client_info": {
+          "package_name": "com.example.firebasedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578828547284-7en5c83tvbum15f8af9jb7isdnj92q70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasedb",
+            "certificate_hash": "321c2947062d826fe52c21ceac871c0df9710bd9"
+          }
+        },
+        {
+          "client_id": "578828547284-17meri62c2si2kdu7p9b2pt5t5sq42m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqqd2V04kXwbOebfzebHoQ8POKrrhIpAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578828547284-17meri62c2si2kdu7p9b2pt5t5sq42m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

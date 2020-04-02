@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="courses">
+        <item>Select Courses</item>
+        <item>python</item>
+        <item>C language</item>
+        <item>C++</item>
+        <item>Django</item>
+        <item>PHP</item>
+        <item>Android</item>
+        <item>java</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@color/teal"
+    android:paddingTop="30dp"
+    >
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="Register Yourself"
+        android:textAllCaps="false"
+        style="@style/btnStyle"
+        />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/regbtn"
+        android:padding="10dp"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/logo"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your name"
+                android:id="@+id/namebox"
+                android:inputType="text"
+                style="@style/text_box_style"
+                />
+
+            <EditText
+                android:id="@+id/emailbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Your Email"
+                style="@style/text_box_style"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="mobile number"
+                android:id="@+id/mobile_no_box"
+                style="@style/text_box_style"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/passbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="your password"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    style="@style/text_box_style"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text_box_style"
+                    android:text="show"
+                    android:id="@+id/showhidebtn"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/conferm_pass_box"
+                style="@style/text_box_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Conferm password"
+                android:inputType="textPassword" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/text_box_style"
+                android:inputType="date"
+                android:hint="DOB(yy-mm-dd)"
+                android:id="@+id/bob_box"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                style="@style/text_box_style"
+                android:id="@+id/genderbox"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Gender"
+                    android:textSize="20dp"/>
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textSize="20dp"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textSize="20dp"
+                    android:id="@+id/female"/>
+            </RadioGroup>
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/text_box_style"
+                android:entries="@array/courses"
+                android:id="@+id/course"
+                android:textSize="20dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+</RelativeLayout>
